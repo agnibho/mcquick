@@ -28,7 +28,7 @@ URL. Specific usage instructions are available in the help.php page of
 the MCQuick.
 
 A hosted version of MCQuick is available at
-http://mcquick.agnibho.com/
+http://app.agnibho.com/mcquick/
 
 Licensing
 ---------
