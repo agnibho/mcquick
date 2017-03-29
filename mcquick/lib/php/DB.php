@@ -25,11 +25,11 @@
  **********************************************************************/
 ?>
 <?php
-define("URL", "http://app/repo/mcquick/"); //URL to access MCQuick
+define("URL", "http://app/mcquick/"); //URL to access MCQuick
 define("HOST", "localhost"); //MYSQL host name
 define("USER", "root"); //MYSQL username
 define("PASS", "data"); //MYSQL password
-define("DTBS", "new"); //MYSQL database name
+define("DTBS", "mcquick"); //MYSQL database name
 class DB{
     private static $db;
     private static $sql=false;
