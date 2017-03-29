@@ -286,12 +286,12 @@ function display_question(q, i){
 	    +'</div>'
 	    +'<div class="panel-body">'
 	    +'<table class="table table-hover" id="q'+(i-1)+'">'
-	    +'<tr><td><input type="checkbox" name="q'+i+'" data-val="a"/> <strong>a.</strong> </td><td>'+esc(q.get_options()[0])+'</td></tr>'
-	    +'<tr><td><input type="checkbox" name="q'+i+'" data-val="b"/> <strong>b.</strong> </td><td>'+esc(q.get_options()[1])+'</td></tr>'
-	    +'<tr><td><input type="checkbox" name="q'+i+'" data-val="c"/> <strong>c.</strong> </td><td>'+esc(q.get_options()[2])+'</td></tr>'
-	    +'<tr><td><input type="checkbox" name="q'+i+'" data-val="d"/> <strong>d.</strong> </td><td>'+esc(q.get_options()[3])+'</td></tr>';
+	    +'<tr><td><label><input type="checkbox" name="q'+i+'" data-val="a"/> a. <span class="rlab">'+esc(q.get_options()[0])+'</span></label></td></tr>'
+	    +'<tr><td><label><input type="checkbox" name="q'+i+'" data-val="b"/> b. <span class="rlab">'+esc(q.get_options()[1])+'</span></label></td></tr>'
+	    +'<tr><td><label><input type="checkbox" name="q'+i+'" data-val="c"/> c. <span class="rlab">'+esc(q.get_options()[2])+'</span></label></td></tr>'
+	    +'<tr><td><label><input type="checkbox" name="q'+i+'" data-val="d"/> d. <span class="rlab">'+esc(q.get_options()[3])+'</span></label></td></tr>';
 	if(paper.get_options()==5){
-	    html=html+'<tr><td><input type="checkbox" name="q'+i+'" data-val="e"/> <strong>e.</strong> </td><td>'+esc(q.get_options()[4])+'</td></tr>';
+	    html=html+'<tr><td><label><input type="checkbox" name="q'+i+'" data-val="e"/> e. <span class="rlab">'+esc(q.get_options()[4])+'</span></label></td></tr>';
 	}
 	html=html+'</table>'
 	    +'</div>'
@@ -309,12 +309,12 @@ function display_question(q, i){
 	    +'</div>'
 	    +'<div class="panel-body">'
 	    +'<table class="table table-hover" id="q'+(i-1)+'">'
-	    +'<tr><td><input type="radio" name="q'+i+'" data-val="a"/> <strong>a.</strong> </td><td>'+esc(q.get_options()[0])+'</td></tr>'
-	    +'<tr><td><input type="radio" name="q'+i+'" data-val="b"/> <strong>b.</strong> </td><td>'+esc(q.get_options()[1])+'</td></tr>'
-	    +'<tr><td><input type="radio" name="q'+i+'" data-val="c"/> <strong>c.</strong> </td><td>'+esc(q.get_options()[2])+'</td></tr>'
-	    +'<tr><td><input type="radio" name="q'+i+'" data-val="d"/> <strong>d.</strong> </td><td>'+esc(q.get_options()[3])+'</td></tr>';
+	    +'<tr><td><label><input type="radio" name="q'+i+'" data-val="a"/> a. <span class="rlab">'+esc(q.get_options()[0])+'</span></label></td></tr>'
+	    +'<tr><td><label><input type="radio" name="q'+i+'" data-val="b"/> b. <span class="rlab">'+esc(q.get_options()[1])+'</span></label></td></tr>'
+	    +'<tr><td><label><input type="radio" name="q'+i+'" data-val="c"/> c. <span class="rlab">'+esc(q.get_options()[2])+'</span></label></td></tr>'
+	    +'<tr><td><label><input type="radio" name="q'+i+'" data-val="d"/> d. <span class="rlab">'+esc(q.get_options()[3])+'</span></label></td></tr>';
 	if(paper.get_options()==5){
-	    html=html+'<tr><td><input type="radio" name="q'+i+'" data-val="e"/> <strong>e.</strong> </td><td>'+esc(q.get_options()[4])+'</td></tr>';
+	    html=html+'<tr><td><label><input type="radio" name="q'+i+'" data-val="e"/> e. <span class="rlab">'+esc(q.get_options()[4])+'</span></label></td></tr>';
 	}
 	html=html+'</table>'
 	    +'</div>'

@@ -155,7 +155,9 @@ require_once "lib/php/DB.php";
 		    </form>
 		</div>
 	    </div>
-	    <span id="show_question"></span>
+      <div class="row">
+      <div id="show_question"></div>
+      </div>
 	    <div class="col-sm-offset-3 col-sm-6">
 		<button class="btn btn-success btn-lg btn-block" id="submit_paper">Submit Paper</button>
 	    </div>
