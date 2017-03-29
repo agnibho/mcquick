@@ -36,7 +36,7 @@ require_once "lib/php/DB.php";
     </head>
     <body>
 	<?php include("template/heading.php"); ?>
-	<div class="row">
+	<div class="container">
 	    <div class="text-primary">
 		<div class="jumbotron">
 		    <h2>MCQuick Question Papers</h2>
