@@ -27,7 +27,7 @@
 <div class="panel panel-info">
     <div class="panel-heading">
 	<h4>MCQuick 4.0</h4>
-	<h5>Copyright &copy; 2014-2015 Agnibho Mondal</h5>
+  <h5>Copyright &copy; 2014-<?php echo date("Y"); ?> Agnibho Mondal</h5>
 	<h5><a href="http://www.agnibho.com" style="text-decoration:none">www.agnibho.com</a></h5>
     </div>
 </div>
